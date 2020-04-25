@@ -1,0 +1,8 @@
+platform :ios, '13.0'
+source 'https://github.com/CocoaPods/Specs.git'
+target 'CryptoTop' do
+  use_frameworks!
+  pod 'Alamofire'
+  pod 'Charts'
+  pod 'Kingfisher', '~> 5.13'
+end
